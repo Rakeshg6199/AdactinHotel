@@ -15,7 +15,7 @@ public class StepDefinition {
 	static WebDriver driver;
 	@Given("User enters to the Adactin hotel page")
 	public void user_enters_to_the_adactin_hotel_page() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Administrator\\eclipse-workspace\\AdactinProject\\driver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"/chromedriver.exe");
 	    driver = new ChromeDriver();
 		driver.get("https://adactinhotelapp.com/");
 		

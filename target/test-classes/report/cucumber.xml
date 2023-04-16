@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="20.984" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="Verify the adactin hotel login page" name="Verify using the valid credential" time="16.846">
+<testsuite name="Cucumber" time="15.842" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="Verify the adactin hotel login page" name="Verify using the valid credential" time="11.528">
 <system-out><![CDATA[
 Given User enters to the Adactin hotel page.................................passed
 When User enter "Rakeshg6199" and "Rakesh123"...............................passed
@@ -8,7 +8,7 @@ And User clicks the login button............................................pass
 Then User shoud see the "Search Hotel" text.................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Verify the adactin hotel login page" name="Search for hotels" time="3.517">
+<testcase classname="Verify the adactin hotel login page" name="Search for hotels" time="3.711">
 <failure type="java.lang.AssertionError">
 <![CDATA[java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)

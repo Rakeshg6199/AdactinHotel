@@ -1,4 +1,0 @@
-org\testrunner\TestRunner.class
-com\report\GenerateCucumberReport.class
-org\stepdefinition\HooksClass.class
-org\stepdefinition\StepDefinition.class
